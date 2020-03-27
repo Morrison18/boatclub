@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+  <title>Join</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../boatclub.css">
+</head>
+
+    <body>
+       
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.html">Quay's Boat Club</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="home.html">Home</a></li>
+      <li  class="active"><a href="insert.html">Join</a></li>
+      <li><a href="select.html">Members</a></li>
+      <li><a href="delete.html">Remove</a></li>
+      <li><a href="update.html">Update Record</a></li>
+      <li><a href="login.html">Login</a></li>
+
+    </ul>
+  </div>
+</nav>
+<div class="photo">
+  <div class="heading">
+<div class="container">
+  <h2>Join the club</h2>
+  <hr>
+    <form action="../php/insert.php" method="post">
+   
+    <div class="form-group">
+     <label for="fname">First name:</label>
+      <input type="txt" class="form-control" name="fname" id="fname" placeholder="Enter eg- Brian">
+    </div>
+        
+    <div class="form-group">
+      <label for="lname">last name:</label>
+      <input type="txt" class="form-control" name="lname" id="lname" placeholder="eg- Morrison">
+    </div>
+    
+    <div class="form-group">
+      <label for="email">E-mail:</label>
+      <input type="email" class="form-control" name="email" id="email" placeholder="eg- bmorrison@gmail.com">
+    </div>
+        
+    <div class="form-group">
+      <label for="contact">Phone number:</label>
+      <input type="txt" class="form-control" name="contact" id="contact" placeholder="eg- 0831234591">
+    </div>
+    
+    <button type="submit" class="btn btn-default" value="submit">Submit</button>
+  </form>
+</div>
+</div>   
+</div> 
+    
+    </body>
+    
+</html>

@@ -1,0 +1,84 @@
+<html lang="en">
+<head>
+  <title>QuayBoatClub</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../boatclub.css">
+</head>
+
+    <body>
+      <header>
+        <nav class="navbar navbar-inverse mynav">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="home.html">Quay's Boat Club</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="home.html">Home</a></li>
+      <li><a href="insert.html">Join</a></li>
+      <li><a href="select.html">Members</a></li>
+      <li><a href="delete.html">Remove</a></li>
+      <li><a href="update.html">Update Record</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+        <div class="photo">
+          <div class="heading">
+            <div class="container">
+                <div class="login-box">
+                <div class ="row">
+                <div class ="col-md-6 login-left">
+                    <h2> Login Here </h2>
+                    <form action="../php/validate.php" method="post">
+                        <div class ="form-group">
+                            <label> Usename</label>
+                            <input type ="text" name ="user" class="form-control" required>					
+                        </div>
+                        
+                        <div class ="form-group">
+                            <label>Password</label>
+                            <input type ="password" name ="password" class="form-control" required>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary" value="submit"> Login </button>				
+                            
+                    </form>
+                </div>
+                
+                    <div class ="col-md-6 login-right">
+                        <h2> Register Here </h2>
+                        <form action="../php/registration.php" method="post">
+                            <div class ="form-group">
+                                <label> Usename</label>
+                                <input type ="text" name ="user" class="form-control" required>					
+                            </div>
+                            
+                            <div class ="form-group">
+                                <label>Password</label>
+                                <input type ="password" name ="password" class="form-control" required>
+                            </div>
+                            
+                            <button type="submit" name="submit" class="btn btn-primary"> Register </button>				
+                                
+                        </form>
+                    </div>
+                
+                </div>
+                
+                
+                </div>
+                
+                
+            <div>
+            </div>
+        </div>
+   
+    
+    </body>
+    
+</html>
