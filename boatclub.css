@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+}
+
+.photo {
+    background-image: linear-gradient(rgb(0, 0, 0),  rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.47)), url(harbour.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    color: #fff;
+    margin-top: 0px;
+    
+}
+
+.mynav:after {
+    margin-bottom: 0px;
+
+}
+.heading {
+    margin-top: 0px;
+    padding: 250px 250px;
+ 
+    text-align: center;
+    color: #fff;
+ 
+}
+table {
+    width: 30%;
+   
+}
+table tr td {
+    border: solid 1px rgb(1, 23, 41);
+
+    color: #000;
+    background-color: #fff;
+  
+   
+}
+
